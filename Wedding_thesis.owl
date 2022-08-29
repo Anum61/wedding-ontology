@@ -1,0 +1,1770 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="https://schema.org"/>
+    <Declaration>
+        <Class IRI="http://schema.org/Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/FoodService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HSY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Maria_B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sigma_Press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#A-line_Gown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Aarsi_Mushaf_Dikhana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bad_Phera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Barat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bijjar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bridal_Gown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bridal_Portraits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Chauthi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Coat_Pent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Cocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Darwaza_Rukai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dastar_Bandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dholki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Doodh_pilai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Drone_Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dua_e_Khair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Elegant_flower_Theme."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Feasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Frock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Ghagra_Choli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Gharara_kurta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Glitter_and_Glitz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guthna_Pakrai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Imam_Zamin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Kurta_Shalwar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Kurta_pajama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Lehnga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Maklawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mangni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Maxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Menu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mobariki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Booths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Studio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Plated_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Proposals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rukhsati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Salami"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sehra_Bandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sharara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sherwani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Spring_Garden_Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Stop-Motion_Wedding_Photo_Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#The_Buffet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Traditional_Village_Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Vest_suit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waist_coat_Kurta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waleema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Hotels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Marriage_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Refreshment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_inhouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_openair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#joota_chupai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#luddi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#music_band"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#photographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#printing_press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sadaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#skirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Attan(BalochDance)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Black_&amp;_White_Photos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dozokhi(Mehndi)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Habar_Bandi(Mangni)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Jannh(Wedding)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Lotokhi(Invitation)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nisbat(Mangni)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sammi(PotohariDance)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waddah(Wedding)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Zamati(Proposal)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#banoor(bride)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#jol_bandi(rasme_hinna)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#saloonk(groom)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding:Bridal_Shower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding:Duaekhair"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#adopts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_classified_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_designed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_performed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_printed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#arranged_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#attend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#booked_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#consists_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#costs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#decides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#designs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#gifted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#gives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_different"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_organized_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#hires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#include"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_through"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_celebrated_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_decided_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_given_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_hosted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_performed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#offered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#pays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#prepared_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wears"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="equivalentClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/givenName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Music_BandCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#BrideAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Caste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GroomAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Caste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GuestsStrength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Hotel_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#ImamMufti_Sect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah_venu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Religion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon_Charges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Studio_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#cards_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti_charges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#mehr_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planner_charges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#salami_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_Duration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Ali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Biradari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Dresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Cosmetics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Crockery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dresses_Bride"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dresses_Groom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Electric_Appliances"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Esha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Furniture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Home_Textile_items"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Jewellary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mufti_abdulKarim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Serving_Styles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Shoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Swing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#amount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#biradari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#bridal_shower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#cost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#days"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invitees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#rupees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sana_junaid_khan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#waleema"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#saloonk(groom)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mangni"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Habar_Bandi(Mangni)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mangni"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nisbat(Mangni)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dozokhi(Mehndi)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#jol_bandi(rasme_hinna)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sadaq"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Proposals"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Zamati(Proposal)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invitation"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Lotokhi(Invitation)"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://schema.org/FoodService"/>
+        <Class IRI="http://schema.org/Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Evento"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#HSY"/>
+        <Class IRI="http://schema.org/Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Maria_B"/>
+        <Class IRI="http://schema.org/Brand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Sigma_Press"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#A-line_Gown"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Aarsi_Mushaf_Dikhana"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bad_Phera"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Barat"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bijjar"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bridal_Gown"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bridal_Portraits"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Chauthi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Coat_Pent"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Cocktail"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Darwaza_Rukai"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dastar_Bandi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dholki"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Doodh_pilai"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Designer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Drone_Photography"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dua_e_Khair"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Elegant_flower_Theme."/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Feasting"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+        <Class IRI="http://schema.org/FoodService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Frock"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Ghagra_Choli"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Gharara_kurta"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Glitter_and_Glitz"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guthna_Pakrai"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Imam_Zamin"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Kurta_Shalwar"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Kurta_pajama"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Lehnga"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Maklawa"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mangni"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Maxi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mobariki"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Booths"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Studio"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Plated_meal"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Proposals"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Reception"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rukhsati"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Salami"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sehra_Bandi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sharara"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sherwani"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Spring_Garden_Theme"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Stop-Motion_Wedding_Photo_Film"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#The_Buffet"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Traditional_Village_Theme"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Vest_suit"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waist_coat_Kurta"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waleema"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Hotels"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Marriage_hall"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Refreshment"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_inhouse"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_openair"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barati"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invitation"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#joota_chupai"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#luddi"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#photographer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#printing_press"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#skirt"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Attan(BalochDance)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Black_&amp;_White_Photos"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dozokhi(Mehndi)"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Habar_Bandi(Mangni)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Jannh(Wedding)"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Lotokhi(Invitation)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nisbat(Mangni)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Sammi(PotohariDance)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Waddah(Wedding)"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Zamati(Proposal)"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#banoor(bride)"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#jol_bandi(rasme_hinna)"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#saloonk(groom)"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding:Bridal_Shower"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding:Duaekhair"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Ali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Biradari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Dresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Salami"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Cosmetics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Crockery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dresses_Bride"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dresses_Groom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Electric_Appliances"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Esha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Furniture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Salami"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Home_Textile_items"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Jewellary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mufti_abdulKarim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Hotels"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Menu"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Serving_Styles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Shoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#music_band"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Swing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#amount"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#biradari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#bridal_shower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_cards"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#cost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#days"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invitees"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#rupees"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sana_junaid_khan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#waleema"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah_venu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+        <Literal>masjid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GroomAge"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Ali"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Dresses"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#salami_amount"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Salami"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Cosmetics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Crockery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Electric_Appliances"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#BrideAge"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Esha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Furniture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#salami_amount"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Salami"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Home_Textile_items"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Jewellary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehndi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-09T07:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Shoes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Music_BandCharges"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Swing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-06T09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#bridal_shower"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-07T10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#days"/>
+        <Literal>4days</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#mehr_amount"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#rupees"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Hotel_name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sana_junaid_khan"/>
+        <Literal>Luxe_Marque_halls</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#waleema"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-10-10T08:00:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#attend"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#consists_of"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#costs"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_organized_in"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_by"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_through"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#shows"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="equivalentClass"/>
+        <ObjectProperty IRI="topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_designed_by"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#designs"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#decides"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_decided_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#gives"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_given_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned_by"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#include"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#adopts"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#photographer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_classified_into"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_designed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_performed_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Rituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_printed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#arranged_for"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#attend"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#booked_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#music_band"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#consists_of"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#contains"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#costs"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#gifted_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_different"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_organized_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_organized_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#hires"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#include"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barati"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_through"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_celebrated_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_decided_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_given_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sadaq"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_hosted_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding:Bridal_Shower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_performed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#offered_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#sadaq"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#pays"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#prepared_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#prepared_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wears"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wears"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="topObjectProperty"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#barati"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#adopts"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photography_Trends"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_classified_into"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Pre_Wedding_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_classified_into"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#post_Wedding_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_designed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dress_Designer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_performed_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#are_printed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#printing_press"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#arranged_for"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#attend"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Ceremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#attend"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#booked_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#gifted_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_different"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Food_serving_Style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#has_organized_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Venue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#hires"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#photographer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#include"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#invited_through"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_cards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_celebrated_in"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_decided_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_given_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_hosted_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Family"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#is_performed_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#offered_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#pays"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planned_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#prepared_by"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wears"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="topObjectProperty"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bari"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Music_BandCharges"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#music_band"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#BrideAge"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Caste"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes_Price"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Dowry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GroomAge"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Caste"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GuestsStrength"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Guests"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Hotel_name"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_Hotels"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#ImamMufti_Sect"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah_venu"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Religion"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Religion"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon_Charges"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Studio_name"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Photo_Studio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#cards_Price"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_cards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti_charges"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#mehr_amount"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Mehr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planner_charges"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_planner"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#salami_amount"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Salami"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_Duration"/>
+        <Class IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Wedding_events"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Music_BandCharges"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#BrideAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Bride_Caste"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Costumes_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#DowryItems_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GroomAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Groom_Caste"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#GuestsStrength"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Hotel_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#ImamMufti_Sect"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Nikah_venu"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Religion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Saloon_Charges"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#Studio_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#cards_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#imam_mufti_charges"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#mehr_amount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#planner_charges"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#salami_amount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/qc/ontologies/2022/5/wedding#wedding_Duration"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
